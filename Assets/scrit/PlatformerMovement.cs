@@ -21,6 +21,11 @@ public class PlatformerMovement : MonoBehaviour{
             isJumping = true;
         }
         rb.velocity = moveVector;
+        if (horizontalInput < 0) {
+            transform.localScale = new Vector3(-1, 1, 1);            
+        } else if (horizontalInput > 0) {
+            transform.localScale = new Vector3(1, 1, 1);
+        }
     }
     private void OnCollisionEnter2D(Collision2D collision){
         if(collision.gameObject.CompareTag("Ground")){
