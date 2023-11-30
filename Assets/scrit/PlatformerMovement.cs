@@ -27,9 +27,9 @@ public class PlatformerMovement : MonoBehaviour{
         }
         rb.velocity = moveVector;
         if (horizontalInput < 0) {
-            transform.localScale = new Vector3(-1, 1, 1);            
+            transform.localScale = new Vector3(-0.6f, 0.6f, 0.6f);            
         } else if (horizontalInput > 0) {
-            transform.localScale = new Vector3(1, 1, 1);
+            transform.localScale = new Vector3(0.6f, 0.6f, 0.6f);
         }
     }
     private void OnCollisionEnter2D(Collision2D collision){
