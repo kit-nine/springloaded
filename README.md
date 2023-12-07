@@ -1,7 +1,8 @@
 ❤~❤~❤ springloaded ❤~❤~❤
 
 game for game design
-lore provided by ryan besner the famous actor and writer and cool guy (<3), everything else by kit seigler the famous kit seigler and game maker except not the lore i cant make the lore
+lore provided by ryan besner the famous actor and writer and cool guy (<3), everything else by kit seigler the famous kit seigler and game maker except not the lore i cant make the lore.
+
 i used unity for this, i just couldnt get the whole thing to sync over so when i open this on new computers i just, create a new unity project and copy paste this assets folder into it, replacing the existing one. it WORKS its just silly of me but
 
 ❤~❤~❤ lore ❤~❤~❤
